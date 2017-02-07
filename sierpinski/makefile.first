@@ -1,0 +1,14 @@
+cc=g++
+LDLIBS=-lglut -lGL -lGLU -lGLEW -lm -lX11 -lXmu -lXi -L/usr/lib64
+
+sierpinski:	sierpinski.o initShader.o	
+		$(cc)  sierpinski.o initShader.o -o sierpinski $(LDLIBS) -Wall
+
+sierpinski.o:	sierpinski.cpp	
+		$(cc) -c sierpinski.cpp $(LDLIBS)
+
+initShader.o:	initShader.cpp	
+		$(cc) -c initShader.cpp $(LDLIBS)
+
+clean:	
+		rm *.o sierpinski

@@ -1,0 +1,123 @@
+/*Name: Matthew Matze
+ *Date: 1-27-15
+ *Class: CSC3360
+ *Location:~/csc3360/maze/maze.cpp
+ */
+
+#include"../include/Angel.h"
+#include <vector>
+#include <cstdlib>
+#include <stdio.h>
+#include <stack>
+
+	int NumPoints;
+
+std::vector<vec2> createNewMaze(std::vector<vec2> maze,std::vector<vec2> temp, int j, int *n);
+void display();
+void keyboard(unsigned char key, int x, int y);
+int init(int iterations);
+
+int main(int argc, char **argv)
+{
+	int iterations = atoi(argv[1]);
+	if(iterations<0){
+		std::cerr<<"Invalid number of iterations\n";
+		exit(1);
+	}
+   glutInit(&argc, argv);
+   glutInitDisplayMode(GLUT_RGBA);
+   glutInitWindowSize(512,512);
+
+   glutCreateWindow(" Maze ");
+
+   //compatibility issues with the libraries and drivers installed
+   //glewExperiental=GL_TRUE;
+   glewInit();
+   
+   init(iterations);
+   
+	glutDisplayFunc(display);
+   glutKeyboardFunc(keyboard);
+   
+	glutMainLoop();
+   	return 0;
+   }
+   
+int init(int iterations)
+{
+std::vector<vec2> maze, temp;
+vec2* points;
+
+int j=0;
+int n=0;
+	n=iterations;
+	maze=createNewMaze(maze, temp, j, &n);
+points =(vec2*)malloc(n*sizeof(vec2));
+for(int i=0;i<n;i++){
+	//printf("%f %f\n", maze.front().x,maze.front().y);
+	points[i]=maze.front();
+	//printf("%f %f\n", points[j].x,points[j].y);
+	maze.erase(maze.begin());
+}
+	//Create a vertex array object
+	GLuint vao;
+	glGenVertexArrays(1,&vao);
+	glBindVertexArray(vao);
+
+
+	//Create and Initialize a buffer object
+	GLuint buffer;
+	glGenBuffers(1, &buffer);
+	glBindBuffer(GL_ARRAY_BUFFER, buffer);
+	glBufferData(GL_ARRAY_BUFFER,NumPoints*sizeof(vec2),points, GL_STATIC_DRAW);
+
+	//Load Shaders and use the resulting shader program
+	GLuint program = InitShader("../include/vshader21.glsl", "../include/fshader21.glsl");
+	glUseProgram(program);
+
+	//Initialize the vertex position attribute from the vertex shader
+	GLuint loc=glGetAttribLocation(program,"vPosition");
+	glEnableVertexAttribArray(loc);
+	glVertexAttribPointer(loc,2,GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(0));
+	glClearColor(0,0,0,0); //Black Background
+	return 0;
+}
+void display()
+{
+   glClear(GL_COLOR_BUFFER_BIT);//Clear the Window
+	glViewport(0,0, 512,512);
+//printf("%i", NumPoints);
+	glDrawArrays(GL_LINES, 0, NumPoints*NumPoints*2);//draw the points
+	//glDrawWlements(GL_QUADS,(top+1)*4,GL_UNSIGNED_SHORT, BUFFER_OFFSET(0));
+	//glutSwapBuffers();
+	glFlush();
+}
+
+void keyboard(unsigned char key, int x, int y)
+{
+	switch(key){
+   case 'q':
+		exit(EXIT_SUCCESS);
+      break;
+   case 033:
+		exit(EXIT_SUCCESS);
+      break;
+   case 'Q':
+		exit(EXIT_SUCCESS);
+      break;
+	}
+}
+std::vector<vec2> createNewMaze(std::vector<vec2> maze,std::vector<vec2> temp, int j, int *n)
+{
+vec2 a;
+a.x=-.5;
+a.y=.5;
+while(int i=0;i<n;i++){
+	for(int j=0;j<n;j++){
+		temp.push_back(a);
+		a.x+=(1/n);
+	}
+	a.y+=(1/n)
+}
+return maze;
+}

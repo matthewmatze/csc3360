@@ -1,0 +1,191 @@
+<HTML>
+<HEAD>
+<TITLE>CSC-3360 Visual Effects, Animation and Computer Graphics I</TITLE>
+</HEAD>
+<BODY BGCOLOR=WHITE>
+<CENTER>
+<B><FONT SIZE=4>CSC-3360 Visual Effects, Animation and Computer Graphics I</FONT></B>
+<center><b>Spring 2015</b></center>
+<TABLE WIDTH=100%>
+<TR><TD><B>Instructor:</B>
+    <TD>Roger Shore
+    <TD><B>Class Schedule:</B>
+</TR>
+<TR><TD><B>Office Location:</B>
+    <TD>Congdon Hall 150 
+    <TD>MWF 7:50-9:00PM CSC-1710
+</TR>
+<TR><TD><B>Telephone:</B>
+    <TD>841-9031
+    <TD>TTh 11:40-1:20PM CSC-2210
+</TR>
+<TR><TD><B>Office Hours:</B>
+    <TD>MWF 10:00-11:30PM
+    <TD>TTH 3:30-5:10PM CSC-3360
+</TR>
+<TR><TD>
+    <TD>MWF 12:30-2PM
+    <TD>TBA CSC-4560 
+</TR>
+<TR><TD>
+    <TD>Others by appointment
+    <TD>
+</TR>
+<TR><TD COLSPAN=2><B>E-Mail:</B> <A HREF="mailto:rshore@linus.highpoint.edu">rshore</A>@linus.highpoint.edu</TD>
+    <TD><B>Web site:</B> linus.highpoint.edu/~rshore </TD>
+</TR>
+</TABLE>
+
+
+</CENTER>
+<P><B><FONT SIZE=4>Course Description:</FONT></B>
+An in-depth examination of how graphics are implemented on a computer, with an emphasis on creating two-dimensional graphics using a standard API. Students will use the facilities provided by a standard API to express basic transformations such as scaling, rotation, and translation. Additional topics include: introduction to Maya, performance issues, input devices, real-time graphics and interaction, collision detection, and sound.
+</p>
+<P><B><FONT SIZE=4>Prerequisites:</FONT></B> CSC-1720 or CSC-2710<BR></P>
+<P><FONT SIZE=4><B>Course Materials:</B> </FONT>
+<ol>
+<li>Edward Angel, <i>Interactive Computer Graphics, A Top-Down Approach using OpenGL</i>, 6th Edition, Addison Wesley.  ISBN: 978-0-13-254523-5 
+<li>Other resources:
+<ul>
+   <li>Todd Palamar, Eric Keller, <i>Mastering Autodesk Maya 2012</i> Wiley, 2011, ISBN:978-0-470-91977-4</li>
+   <li>Maya tutorial from their website</lii>
+</ul>
+   <li>The department will provide all software necessary to complete the course.  This will require the student to have an account on the departmental server.  This account will give them access to the software and space to store solutions to assignments.  Access to the server will be provided through a workstation in the departmental lab as well as from any remote location on and off campus.
+</ol>
+</p>
+<b><FONT SIZE=4>Course Objectives:</FONT></B> 
+<ul> 
+   <LI>Create images using a standard graphics API.
+   <LI>Use the facilities provided by a standard API to express basic transformations such as scaling, rotation, and translation.
+   <LI>Use current hardware and software for creating and displaying graphics.
+   <LI>Use common animation software such as Maya to construct simple organic forms using metaball and skeleton.
+   <LI>Use the facilities provided by a standard API to illuminate the objects within a scene.
+   <LI>Describe the techniques to detect collision of objects within a scene.
+</UL>
+<OL>
+</OL>
+<B><FONT SIZE=4>Class Preparation:</FONT></B>   It is assumed that you will read the assigned chapters.  Although the material may be summarized, lectures will be used mainly to further demonstrate other approaches to problem solving and to answer specific questions.</P>
+<B><FONT SIZE=4>Assignments</FONT></B>: 
+In addition to the major tests and exam, students will participate in a series of assignments that will improve their graphic programming skills.  Each assignment will focus on some aspect of computer animation and visual effects.  Some of these will require the student to analyze a problem and decompose it into simpler tasks.  At that point, the student will design, implement, test, and debug the program.</p>
+<B><FONT SIZE=4>Course Policy</FONT>:</B>
+<OL>
+<LI> <B>Attendance</B>: Attendance will be taken daily at the beginning of class.  You are expected to be present in every class meeting.  If absent from class, you are responsible for all lectures, in-class exercises, assignments, and handouts.  Caution: Being absent from class does not change the due date of assignments.  
+<LI><B>Grades</B>: Your final grade will be determined as follows:
+<TABLE BORDER WIDTH=555 CELLPADDING=0>
+<TR ALIGN=CENTER VALIGN=TOP>
+<TD COLSPAN=1 WIDTH=15%> <P>Component</P> </TD>
+<TD COLSPAN=1 WIDTH=33%> <P>Aprox. 8 Project Assignments</P> </TD>
+<TD COLSPAN=1 WIDTH=18%><P>2 Major Tests</P></TD>
+<TD COLSPAN=1 WIDTH=26%> <P>Cumulative Final Exam</P> </TD>
+<TD COLSPAN=1 WIDTH=8%> <P>Total</P> </TD></TR>
+<TR ALIGN=CENTER VALIGN=TOP>
+<TD COLSPAN=1 WIDTH=15%> <P>Weight</P> </TD>
+<TD COLSPAN=1 WIDTH=33%> <P>40%</P> </TD>
+<TD COLSPAN=1 WIDTH=18%> <P>40%</P> </TD>
+<TD COLSPAN=1 WIDTH=26%> <P>20%</P> </TD>
+<TD COLSPAN=1 WIDTH=8%> <P>100%</P> </TD></TR>
+</TABLE>
+<TABLE BORDER WIDTH=555 CELLPADDING=0>
+<TR ALIGN=CENTER VALIGN=TOP>
+<TD COLSPAN=1 WIDTH=8%><CENTER> Range </CENTER></TD>
+<TD COLSPAN=1 WIDTH=9%><CENTER> 93-100 </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> 90-93 </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> 87-90 </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> 83-87 </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> 80-83 </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> 77-80 </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> 73-77 </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> 70-73 </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> 67-70 </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> 63-67 </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> 60-63 </CENTER></TD>
+<TD COLSPAN=1 WIDTH=3%><CENTER> 0-60 </CENTER></TD></TR>
+<TR ALIGN=CENTER VALIGN=TOP>
+<TD COLSPAN=1 WIDTH=8%><CENTER> Grade </CENTER></TD>
+<TD COLSPAN=1 WIDTH=9%><CENTER> A </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> A- </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> B+ </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> B </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> B- </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> C+ </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> C </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> C- </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> D+ </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> D </CENTER></TD>
+<TD COLSPAN=1 WIDTH=8%><CENTER> D- </CENTER></TD>
+<TD COLSPAN=1 WIDTH=3%><CENTER> F </CENTER></TD></TR>
+</TABLE>
+<I><FONT SIZE=2>You must score at least the minimum of a category to be given the associated grade, i.e. an average of 80 is a B- not a C+.</FONT> </I>
+<li><b>Make-Up test will not be given.</b> Unless prior arrangements have been made with excusable reasons, NO make-up test will be given. If you miss a test your final grade will be used in place of the missed grade. This means the percentage of the final exam will increase. If you miss the final exam, you will receive an F for the course.
+<li><b>Assignments</b>: Assignments, quizzes, and class work sheets will assist you in the understanding of the material presented during class. These will appear in almost every class meeting during the semester. Items completed during class cannot be made up therefore the lowest two grades will be dropped to allow for an occasional absence. Programming assignments will have gracious due dates. You must turn in the assignment by the due date for full credit. 
+<li><b>Classroom etiquette:</b> 
+   <ul>
+      <li> Cell phone usage during class is prohibited.  Turn off cell phones (or place on vibrate). Please do not interrupt any aspect of the class due to your cell phone.  This includes <b>text messaging</b>, <b>picture messaging</b>, etc.
+      <li> Do not listen to your ipod, cd player, etc. during class (even if we are in the computer lab). 
+      <li> Profanity will not be tolerated. This includes lewd remarks printed on your clothing.
+      <li> Hats are not to be worn during class.
+      <li> Laptops are allowed in the class and can only be used for class related stuff.  Since I cannot see you screen, you will be called out if I suspect otherwise.  
+   </ul>
+
+<li><b>Lab etiquette:</b> 
+   <ul>
+      <li>The lab was created with student input.  Please help respect and maintain the lab.
+      <li>Do not eat while sitting at a workstation.  If you <b>must</b> eat while in the lab, sit a the larger table where no equipment may be damaged except your own.   Clean up the area after you finish eating.
+      <li>Clean up your area before you leave the lab.  Unless you are planning to return in a few minutes, please take all books, paper, etc with you.  
+      <li><b>DO NOT</b> lock your workstation when you leave!
+   </ul>
+<li><b>Students with Disabilities</b>: Students who require classroom accommodations due to a diagnosed disability must submit the appropriate documentation to Disability Support in the Office of Academic Development, 4th Floor Smith Library. Student’s need for accommodations must be made at the beginning of a course. Accommodations are not retroactive.</li>
+
+</OL>
+<B>Course Topics:</B>
+
+
+<P><B>Course Topics:</B></P>
+<OL>
+<li> Graphics Systems and models
+   <li>Modeling Tools
+   <ul>
+      <li>Maya
+      <li>Blender
+   </ul>
+<li> Raytracing system 
+<li> Graphics Programming in OpenGL
+<li> Input and Interation
+<li> Geometric Objects and Transformations
+<ul>
+   <li>2-D transformations - translations/Rotation/Scaling
+   <li>3-D transformations - translations/Rotation/Scaling
+   <li>animation - 2D and 3D
+   </ul>
+   <li> Viewing
+   <ul>
+      <li>camera
+      <li>Parallel/perspective projections
+      <li>hidden-surface removal
+      <li>interactive mesh displays
+   </ul>
+   <li> Shading
+   <ul>
+      <li>light sources
+      <li>The Phong Reflection Model
+      <li>polygonal shading
+   </ul>
+   <li> From vertices to fragments
+   <ul>
+      <li>Clipping
+      <li>Rasterization
+      <li>Hidden Surface Removal
+   </ul>
+   <li> More topics as time permits.
+</ol>
+<p> Possible programming assignments
+<ol>
+   <li> snowflake
+   <li> break-out
+   <li> maze - find path to exit
+   <li> 2-D/3-D pong
+   <li> 3-D landscape with fly by
+   <li> obj renderer
+</ol>
+</body>
+</html>

@@ -1,0 +1,18 @@
+The set up:
+   Make sure you have an include directory one level back containing
+      Angel.h
+      mat.h
+      vec.h
+      initShader.cpp
+   If not, adjust your path to the Angel.h file in the circle_shader.cpp file.
+
+Do a make clean first, here's how using my makefile
+   make FN=circle_shader clean
+
+Now, do a make as follows
+   make FN=circle_shader
+
+And to execute the code
+   ./circle_shader 
+
+use Q|q to quit at any time.
